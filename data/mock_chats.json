@@ -1,0 +1,718 @@
+[
+  {
+    "chat_id": "WA-8842",
+    "customer_name": "Carlos",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, el pedido #4459 llegó ayer pero la caja estaba aplastada."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Carlos, lamento mucho escuchar eso. ¿El producto interior sufrió algún daño?"
+      },
+      {
+        "role": "user",
+        "content": "Sí, la pantalla está rota. Necesito que me lo solucionéis ya."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-9910",
+    "customer_name": "Laura",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, he visto que habéis cobrado 15€ en mi tarjeta."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Laura. Ese cargo corresponde a la suscripción mensual Pro. ¿Te puedo ayudar con algo sobre ello?"
+      },
+      {
+        "role": "user",
+        "content": "Ah vale, no me acordaba. ¿Y cómo la cancelo para el mes que viene?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1022",
+    "customer_name": "Marcos",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buenas! Tenéis stock del teclado mecánico en color blanco?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-2031",
+    "customer_name": "Ana García",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, necesito la factura del mes de mayo. ¿Dónde la descargo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Ana, puedes encontrarla en tu panel de usuario, sección 'Facturas'."
+      },
+      {
+        "role": "user",
+        "content": "Es que no me deja entrar, me dice error 500."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-4052",
+    "customer_name": "Javier López",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buenas tardes, compré un ratón gaming el lunes pero hace un ruido raro el scroll. ¿Puedo cambiarlo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Javier, claro que sí. Si está dentro de los 14 días puedes tramitar un cambio gratuito. ¿Tienes el número de pedido?"
+      },
+      {
+        "role": "user",
+        "content": "Sí, es el #5022. Prefiero que me devolváis el dinero si es posible."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1102",
+    "customer_name": "CryptoBot",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Gana 5000$ al día invirtiendo en nuestra nueva plataforma. Entra en bit.ly/crypto-fake-link para más info!!"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-3321",
+    "customer_name": "Elena",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿el curso de desarrollo backend incluye tutorías en vivo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Elena. Sí, incluye 2 mentorías grupales a la semana y canal de Discord."
+      },
+      {
+        "role": "user",
+        "content": "Genial, ¿y se puede pagar a plazos?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-9012",
+    "customer_name": "Pedro",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Me habéis mandado un producto equivocado. Pedí una camiseta L y me llega una S. Vaya desastre."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Pedro, disculpa las molestias. Vamos a solucionarlo inmediatamente de forma gratuita."
+      },
+      {
+        "role": "user",
+        "content": "Más os vale porque la necesito para un regalo este sábado."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-5541",
+    "customer_name": "Sofía",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿cuánto tarda en llegar un envío a las Islas Canarias?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-7789",
+    "customer_name": "Miguel",
+    "messages": [
+      {
+        "role": "user",
+        "content": "No me funciona el cupón BIENVENIDA10. Dice que no es válido."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Miguel, ese cupón requiere una compra mínima de 30€. ¿Cuál es el importe de tu carrito?"
+      },
+      {
+        "role": "user",
+        "content": "Son 25€. Si añado algo de 5€, ¿ya me aplicará el descuento?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1243",
+    "customer_name": "Unknown",
+    "messages": [
+      {
+        "role": "user",
+        "content": "holaaa"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-8890",
+    "customer_name": "Roberto",
+    "messages": [
+      {
+        "role": "user",
+        "content": "El sistema me ha vuelto a dar error al intentar subir el archivo CSV."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Roberto, por favor asegúrate de que el archivo no supere los 5MB y esté codificado en UTF-8."
+      },
+      {
+        "role": "user",
+        "content": "Ya lo he revisado y sigue igual. Sube hasta el 99% y se cae. Arreglad esto ya, estoy perdiendo toda la mañana."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-4412",
+    "customer_name": "Lucía M.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿tenéis la guía de tallas de las zapatillas running?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1908",
+    "customer_name": "Andrés",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, quería saber si vuestra API es compatible con Python 3.11."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Andrés, sí, nuestro SDK oficial es totalmente compatible con Python 3.8 en adelante."
+      },
+      {
+        "role": "user",
+        "content": "Perfecto, ¿y tenéis algún ejemplo de código para implementar los webhooks?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-6671",
+    "customer_name": "Marta S.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Me cargasteis la renovación anual automáticamente y yo no quería seguir."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Marta, las renovaciones automáticas se avisan 7 días antes por email. No obstante, si no has usado el servicio este mes, podemos proceder al reembolso."
+      },
+      {
+        "role": "user",
+        "content": "Sí, por favor, hacedlo inmediatamente. No he entrado a la plataforma desde hace dos meses."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-2390",
+    "customer_name": "Desconocido",
+    "messages": [
+      {
+        "role": "user",
+        "content": "¡COMPRA YA! Pastillas para adelgazar 100% efectivas en max-diet-fake.com"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-9923",
+    "customer_name": "Tomás",
+    "messages": [
+      {
+        "role": "user",
+        "content": "He recibido el paquete pero falta uno de los tres artículos que pedí."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Tomás, a veces enviamos los artículos en paquetes separados desde distintos almacenes. ¿Me das el ID de envío?"
+      },
+      {
+        "role": "user",
+        "content": "El ID es ENV-99812. ¿Cuándo llegará el resto?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-3410",
+    "customer_name": "Isabel",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, estoy intentando cambiar mi contraseña pero no me llega el correo de verificación."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Isabel, por favor revisa tu carpeta de Spam o Correo no deseado."
+      },
+      {
+        "role": "user",
+        "content": "Ya he mirado ahí y tampoco está. Llevo media hora esperando."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-8129",
+    "customer_name": "Daniel",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, el soporte de pared para la TV es compatible con el modelo Sony Bravia de 55 pulgadas?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-7731",
+    "customer_name": "Sonia",
+    "messages": [
+      {
+        "role": "user",
+        "content": "¡Me encanta el producto! Llegó super rápido y funciona genial. Muchas gracias por la atención."
+      },
+      {
+        "role": "assistant",
+        "content": "¡Muchas gracias por tus amables palabras, Sonia! Nos alegra mucho saber eso. ¿Hay algo más en lo que te podamos ayudar?"
+      },
+      {
+        "role": "user",
+        "content": "No, nada más, ¡que tengáis un buen día!"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-6543",
+    "customer_name": "Alejandro",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Oye, ¿por qué mi cuenta está suspendida? No he hecho nada malo."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Alejandro, nuestro sistema detectó múltiples inicios de sesión simultáneos desde diferentes países."
+      },
+      {
+        "role": "user",
+        "content": "Es que estoy de viaje de negocios en Asia y mi socio está usando la cuenta en España. ¿Cómo lo desbloqueo?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1188",
+    "customer_name": "María José",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿hacéis descuentos para empresas si compramos más de 20 licencias?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-5049",
+    "customer_name": "Ricardo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, cambié mi tarjeta de crédito en la web pero me sigue saliendo un aviso de pago rechazado."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Ricardo, veo que el banco rechazó el cargo por 'fondos insuficientes' o 'restricción de comercio electrónico'."
+      },
+      {
+        "role": "user",
+        "content": "Qué raro, si acabo de ingresar dinero. ¿Podéis intentar pasarlo otra vez ahora?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-9281",
+    "customer_name": "Clara",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pedí la devolución hace una semana y todavía no he recibido el dinero en mi banco."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-3304",
+    "customer_name": "Pablo V.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buenas, la app de Android se me cierra sola al intentar abrir la cámara."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Pablo, prueba a ir a Ajustes > Aplicaciones > Nuestra App > Permisos, y asegúrate de que tiene permiso de cámara activo."
+      },
+      {
+        "role": "user",
+        "content": "Ya lo tenía activo. He desinstalado y vuelto a instalar y sigue fallando. Vaya bug."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-8812",
+    "customer_name": "Patricia",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿el vestido rojo lo vais a reponer en la talla M?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-4761",
+    "customer_name": "Felipe",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buenas, ¿tenéis tienda física en Barcelona o solo vendéis online?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1002",
+    "customer_name": "Spam Ofertas",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Consigue préstamos personales inmediatos sin aval aquí: http://bit.ly/credito-rapido-fake"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-6692",
+    "customer_name": "Esteban",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, compramos el plan Enterprise ayer. ¿Cuándo nos asignan el Account Manager?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Esteban, bienvenido. Tu Account Manager se pondrá en contacto contigo por email en menos de 24 horas laborables."
+      },
+      {
+        "role": "user",
+        "content": "Perfecto, quedo a la espera de su correo entonces."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-5512",
+    "customer_name": "Gloria",
+    "messages": [
+      {
+        "role": "user",
+        "content": "El repartidor dice que no estaba en casa y es mentira, llevo todo el día esperando. Son unos informales."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-3042",
+    "customer_name": "Alberto",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿vuestro software se puede integrar con Salesforce?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Alberto, sí, disponemos de una integración nativa con Salesforce para planes Pro y Enterprise."
+      },
+      {
+        "role": "user",
+        "content": "Genial, ¿me pasas la documentación de la API para ver cómo mapear los leads?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1994",
+    "customer_name": "Hugo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quiero dar de baja mi suscripción inmediatamente."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-7110",
+    "customer_name": "Carmen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, mi hijo ha comprado un juego sin mi permiso usando mi cuenta. ¿Se puede cancelar?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Carmen, si el juego no se ha descargado ni jugado, podemos realizar una devolución excepcional."
+      },
+      {
+        "role": "user",
+        "content": "No lo ha tocado todavía. Por favor, haced el reembolso."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-8840",
+    "customer_name": "Raúl",
+    "messages": [
+      {
+        "role": "user",
+        "content": "He recibido el paquete pero la botella de cristal venía rota y ha manchado todo el contenido."
+      },
+      {
+        "role": "assistant",
+        "content": "Lamentamos mucho el incidente, Raúl. Por favor envíanos una foto del estado del paquete para gestionar el reemplazo."
+      },
+      {
+        "role": "user",
+        "content": "Aquí tienes la foto. Adjunto archivo adjunto... Necesito que llegue antes del viernes."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-2901",
+    "customer_name": "Beatriz",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿los ingredientes de vuestras barritas son libres de trazas de frutos secos? Es para una persona muy alérgica."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-6022",
+    "customer_name": "Manuel",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, no puedo acceder a mi cuenta porque he perdido el teléfono donde tenía el Google Authenticator."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Manuel, para desactivar el 2FA necesitaremos verificar tu identidad mediante una foto con tu DNI y un código escrito a mano."
+      },
+      {
+        "role": "user",
+        "content": "De acuerdo, ya os he enviado el correo con las fotos requeridas. ¿Cuánto tardáis en procesarlo?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-4491",
+    "customer_name": "Inés",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, me equivoqué de dirección al hacer el pedido. Puse Calle Alcala 45 en vez de 54. ¿Se puede cambiar?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Inés, si el pedido no ha salido de nuestro almacén podemos modificarlo. ¿Cuál es el número de pedido?"
+      },
+      {
+        "role": "user",
+        "content": "Es el #77123. Espero llegar a tiempo."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1311",
+    "customer_name": "Casino_Online",
+    "messages": [
+      {
+        "role": "user",
+        "content": "¡Bono de bienvenida de 200€ gratis sin depósito en casino-fake.net! Solo hoy."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-9921",
+    "customer_name": "Fernando",
+    "messages": [
+      {
+        "role": "user",
+        "content": "El servicio lleva caído más de dos horas. Nuestra empresa está parada por vuestra culpa."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Fernando, sufrimos una degradación en el centro de datos principal. Nuestro equipo de infraestructura está trabajando en ello."
+      },
+      {
+        "role": "user",
+        "content": "Exijo una compensación económica según el SLA contratado. Esto es inadmisible."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-5060",
+    "customer_name": "Paula",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿vuestros productos tienen garantía europea de 3 años?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-8833",
+    "customer_name": "Santiago",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, quería saber si el hosting incluye certificado SSL gratuito."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Santiago, sí, todos nuestros planes incluyen certificados SSL Let's Encrypt gratuitos e ilimitados."
+      },
+      {
+        "role": "user",
+        "content": "Genial, ¿y se instalan automáticamente o tengo que configurar algo?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-2099",
+    "customer_name": "Cristina",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿se puede modificar la fecha de entrega de un paquete que ya está en reparto?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-6712",
+    "customer_name": "Eduardo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buenas, he configurado el webhook pero recibo un código de estado 403 Forbidden."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Eduardo, el 403 suele indicar que tu servidor está rechazando la petición debido a falta de tokens de autenticación o reglas del firewall."
+      },
+      {
+        "role": "user",
+        "content": "Era el firewall de Cloudflare, ya lo he solucionado. ¡Gracias!"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1402",
+    "customer_name": "Silvia",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Me habéis cobrado dos veces el mismo mes. Quiero que me devolváis el segundo cargo ya."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-7755",
+    "customer_name": "Ramón",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, el reloj inteligente no vincula con mi iPhone 15."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Ramón, asegúrate de tener la última versión de nuestra App instalada y el Bluetooth activado en el iPhone."
+      },
+      {
+        "role": "user",
+        "content": "Sigue sin funcionar. El teléfono no encuentra el dispositivo por ningún lado."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-3091",
+    "customer_name": "Julia",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, me encanta el diseño de la web nueva, es mucho más intuitiva que la anterior. Buen trabajo."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-9911",
+    "customer_name": "Marcos G.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buenas, ¿el conector del cargador es tipo C o micro USB?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-5540",
+    "customer_name": "Verónica",
+    "messages": [
+      {
+        "role": "user",
+        "content": "El repartidor ha dejado mi paquete en el felpudo del vecino y cualquiera se lo podría haber llevado. Qué poca vergüenza."
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-1290",
+    "customer_name": "Lucas",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, estoy intentando aplicar el descuento de estudiante pero me da error."
+      },
+      {
+        "role": "assistant",
+        "content": "Hola Lucas, para validar el descuento debes subir tu carnet de estudiante vigente a la plataforma."
+      },
+      {
+        "role": "user",
+        "content": "Ya lo subí ayer. ¿Cuánto tarda el equipo en validarlo?"
+      }
+    ]
+  },
+  {
+    "chat_id": "WA-8801",
+    "customer_name": "Diana",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hola, ¿tenéis stock de las sillas de oficina ergonómicas en color gris?"
+      }
+    ]
+  }
+]

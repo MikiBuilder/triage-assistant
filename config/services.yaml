@@ -1,0 +1,16 @@
+parameters:
+    openrouter.api_key: '%env(OPENROUTER_API_KEY)%'
+    openrouter.base_url: '%env(OPENROUTER_BASE_URL)%'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: '../src/'
+
+    App\Service\ChatAnalyzerService:
+        arguments:
+            $openRouterApiKey: '%openrouter.api_key%'
+            $openRouterBaseUrl: '%openrouter.base_url%'

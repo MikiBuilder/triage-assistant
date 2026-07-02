@@ -1,0 +1,15 @@
+# Symfony
+/vendor/
+/var/
+/.env
+/public/bundles/
+
+# Composer
+composer.phar
+
+# Docker
+.DS_Store
+
+# IDE
+/.idea/
+/.vscode/
