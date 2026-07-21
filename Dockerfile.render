@@ -20,4 +20,6 @@ COPY docker/render/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY docker/render/start.sh /start.sh
 RUN chmod +x /start.sh
 
+RUN echo "max_execution_time = 300" > /usr/local/etc/php/conf.d/timeout.ini
+
 CMD ["/start.sh"]
