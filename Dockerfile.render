@@ -11,7 +11,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 WORKDIR /var/www/html
 COPY . .
 
-RUN composer install --no-dev --optimize-autoloader --no-interaction \
+RUN composer install --no-dev --optimize-autoloader --no-interaction --no-scripts \
     && chown -R www-data:www-data /var/www/html
 
 COPY docker/render/nginx.conf.template /etc/nginx/templates/default.conf.template
