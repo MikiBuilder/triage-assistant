@@ -2,6 +2,8 @@
 /vendor/
 /var/
 /.env
+/.env.local
+/.env.*.local
 /public/bundles/
 
 # Composer
