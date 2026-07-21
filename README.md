@@ -12,56 +12,13 @@ Built with Docker, so no local PHP installation is required.
 
 ## Stack
 
-
-|
- Tool 
-|
- Version 
-|
- Notes 
-|
-|
----
-|
----
-|
----
-|
-|
- PHP 
-|
- 8.2 (FPM) 
-|
- Runs inside Docker 
-|
-|
- Symfony 
-|
- 7.4 
-|
- Skeleton install with selected bundles 
-|
-|
- Nginx 
-|
- Alpine (local) / Debian (production) 
-|
- Reverse proxy in front of PHP-FPM 
-|
-|
- OpenRouter 
-|
- API v1 
-|
- LLM provider, OpenAI-compatible format 
-|
-|
- Tailwind CSS 
-|
- CDN 
-|
- No build step required 
-|
+| Tool | Version | Notes |
+|---|---|---|
+| PHP | 8.2 (FPM) | Runs inside Docker |
+| Symfony | 7.4 | Skeleton install with selected bundles |
+| Nginx | Alpine (local) / Debian (production) | Reverse proxy in front of PHP-FPM |
+| OpenRouter | API v1 | LLM provider, OpenAI-compatible format |
+| Tailwind CSS | CDN | No build step required |
 
 No database is used. Conversations are read directly from a static JSON fixture (`data/mock_chats.json`), and results are not persisted between requests.
 
@@ -113,8 +70,9 @@ docker compose exec php composer install
 
 **5. Open the application**
 
+```
 http://localhost:8080/triage
-
+```
 
 The first load will take around 30-60 seconds as the application processes all 50 conversations sequentially. Do not refresh while it loads.
 
@@ -147,36 +105,37 @@ Environment variables required on Render: `APP_ENV=prod`, `APP_SECRET`, `OPENROU
 
 ## Project structure
 
+```
 triage-assistant/
-├── Dockerfile # PHP 8.2-FPM image for local dev (used with docker-compose.yml)
-├── Dockerfile.render # Single-image build for Render (Nginx + PHP-FPM + Supervisor)
-├── docker-compose.yml # PHP + Nginx services for local development
+├── Dockerfile                     # PHP 8.2-FPM image for local dev (used with docker-compose.yml)
+├── Dockerfile.render              # Single-image build for Render (Nginx + PHP-FPM + Supervisor)
+├── docker-compose.yml             # PHP + Nginx services for local development
 ├── docker/
-│ └── render/
-│ ├── nginx.conf.template # Nginx config with ${PORT} substitution
-│ ├── supervisord.conf # Runs nginx + php-fpm in one container
-│ └── start.sh # Entrypoint: port binding, permissions, cache warmup
+│   └── render/
+│       ├── nginx.conf.template    # Nginx config with ${PORT} substitution
+│       ├── supervisord.conf       # Runs nginx + php-fpm in one container
+│       └── start.sh               # Entrypoint: port binding, permissions, cache warmup
 ├── nginx/
-│ └── default.conf # Nginx config for local dev
+│   └── default.conf               # Nginx config for local dev
 ├── src/
-│ ├── Controller/
-│ │ └── TriageController.php
-│ ├── DTO/
-│ │ └── ChatAnalysis.php # Immutable result of a single chat analysis
-│ ├── Enum/
-│ │ ├── ChatCategory.php # TECHNICAL_SUPPORT | BILLING | RETURN | PRODUCT_INQUIRY | SPAM | OTHER
-│ │ └── ChatSentiment.php # POSITIVE | NEUTRAL | NEGATIVE | FRUSTRATED
-│ └── Service/
-│ ├── ChatAnalyzerService.php # LLM integration, prompt building, response parsing
-│ └── ChatAnalysisException.php # Specific exception for analysis failures
+│   ├── Controller/
+│   │   └── TriageController.php
+│   ├── DTO/
+│   │   └── ChatAnalysis.php       # Immutable result of a single chat analysis
+│   ├── Enum/
+│   │   ├── ChatCategory.php       # TECHNICAL_SUPPORT | BILLING | RETURN | PRODUCT_INQUIRY | SPAM | OTHER
+│   │   └── ChatSentiment.php      # POSITIVE | NEUTRAL | NEGATIVE | FRUSTRATED
+│   └── Service/
+│       ├── ChatAnalyzerService.php    # LLM integration, prompt building, response parsing
+│       └── ChatAnalysisException.php  # Specific exception for analysis failures
 ├── templates/
-│ └── triage/
-│ └── index.html.twig # Tailwind CSS view with chat + analysis card layout
+│   └── triage/
+│       └── index.html.twig        # Tailwind CSS view with chat + analysis card layout
 ├── data/
-│ └── mock_chats.json # 50 simulated WhatsApp support conversations
-├── .env.example # Environment variable template
+│   └── mock_chats.json            # 50 simulated WhatsApp support conversations
+├── .env.example                   # Environment variable template
 └── README.md
-
+```
 
 ---
 
